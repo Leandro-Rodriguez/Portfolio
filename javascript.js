@@ -17,15 +17,6 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     }
 });
 
-window.addEventListener('scroll', function() {
-    const backToTopButton = document.getElementById('backToTop');
-    if (window.scrollY > 300) {
-        backToTopButton.style.display = 'block';
-    } else {
-        backToTopButton.style.display = 'none';
-    }
-});
-
 document.addEventListener('DOMContentLoaded', function() {
     if (localStorage.getItem('theme') === 'dark') {
         document.body.classList.add('dark-mode');

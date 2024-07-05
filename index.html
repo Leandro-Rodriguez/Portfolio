@@ -16,14 +16,14 @@
 <body>
     <header>
         <h1>Leandro Rodriguez</h1>
-        <p>Analista de Certificaciones de Producto</p>
-        <button class="toggle-button" onclick="toggleDarkMode()">Cambiar Tema</button>
+        <p>Front End Developer || Analista de Certificaciones de Producto</p>
     </header>
     <div class="container">
         <div class="section">
             <h2>Información Personal</h2>
             <p><strong>Nombre:</strong> Leandro Ricardo Rodriguez</p>
             <p><strong>Edad:</strong> 28 años</p>
+            <p><strong>Nacionalidad:</strong> Argentina</p>
             <p><strong>Ubicación:</strong> Villegas 149, Lanús, Buenos Aires, Argentina</p>
             <p><strong>Correo Electrónico:</strong> <a href="mailto:leandroricardorodriguez@gmail.com">leandroricardorodriguez@gmail.com</a></p>
             <p><strong>Teléfono:</strong> +54 (11) 6855-3117</p>
@@ -31,12 +31,12 @@
         <div class="section">
             <h2>Experiencia Profesional</h2>
             <ul>
-                <li><strong>Feb 2024 - Presente:</strong> Coresa Group - Analista de certificaciones de producto</li>
-                <li><strong>May 2022 - Jan 2024:</strong> Grupo Mirgor - Analista de certificaciones de producto</li>
-                <li><strong>Jan 2020 - May 2022:</strong> TÜV Rheinland Argentina - Asistente técnico</li>
-                <li><strong>Jun 2017 - Dec 2019:</strong> LENOR S.R.L. - Laboratorista</li>
-                <li><strong>Apr 2015 - Jun 2017:</strong> LADET S.A. - Ayudante de laboratorista</li>
-            </ul>
+                <li><strong>04/2015 - 06/2017:</strong> LADET S.A. - Ayudante de laboratorista</li>
+                <li><strong>06/2017 - 12/2019:</strong> LENOR S.R.L. - Laboratorista</li>
+                <li><strong>01/2020 - 05/2022:</strong> TÜV Rheinland Argentina - Asistente técnico</li>
+                <li><strong>05/2022 - 01/2024:</strong> Grupo Mirgor - Analista de certificaciones de producto</li>
+                <li><strong>02/2024 - 07/2024:</strong> Coresa Group - Analista de certificaciones de producto</li>
+                <li><strong>07/2024 - Presente:</strong> Coresa Group - Analista de certificaciones de producto</li>        
         </div>
         <div class="section">
             <h2>Habilidades</h2>
@@ -54,23 +54,29 @@
                 <li>SAP</li>
             </ul>
         </div>
-        <div class="section contact-form">
+        <div class="section contact-form contactoformulario" id="contact-form">
             <h2>Contacto</h2>
             <form id="contactForm">
                 <label for="name">Nombre:</label>
+                <br>
                 <input type="text" id="name" name="name" required>
+                <br>
                 <label for="email">Correo Electrónico:</label>
+                <br>
                 <input type="email" id="email" name="email" required>
+                <br>
                 <label for="message">Mensaje:</label>
+                <br>
                 <textarea id="message" name="message" rows="4" required></textarea>
+                <br>
                 <button type="submit">Enviar</button>
             </form>
         </div>
     </div>
     <footer>
-        <p>&copy; 2024 Leandro Rodriguez. Todos los derechos reservados.</p>
+        <p>&copy; 2024 - Leandro Rodriguez</p>
+        <button class="toggle-button" onclick="toggleDarkMode()">Cambiar Tema</button>
     </footer>
-    <button id="backToTop" onclick="scrollToTop()">Volver arriba</button>
 
     <!-- JAVASCRIPT -->
 
